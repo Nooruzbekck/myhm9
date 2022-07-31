@@ -14,6 +14,7 @@ function AddTodo ({todo, setTodo}) {
        data: new Date().toLocaleDateString()
   }]
    )
+   setValue('')
   }
   return (
     <div>
